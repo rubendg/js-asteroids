@@ -37,7 +37,7 @@ var hjmdivb = ['m','r',':','.','l','/','<','j','e','r','>','e','i','m','n','b','
         </p>
       </header>
       <section>
-        <h3>A port of wxAsteroids to the web</h3>
+        <h3>wxAsteroids on the web</h3>
 
 <p>
 <div style="width:160px;padding:10px;float:right;">
@@ -48,16 +48,16 @@ The stripped version running on Ubuntu
 <img src="https://raw.github.com/UU-ComputerScience/js-asteroids/master/msc-thesis/resources/browser_wxasteroids.png"/> <br/>
 The port running in Chromium
 </div>
- A port of wxAsteroids to the web browser. The original <a
+ The original <a
    href="http://dl.acm.org/citation.cfm?id=1017472.1017483">wxAsteroids</a>
  is a clone of the famous astroids game
  implemented in Haskell interfacing to the underlying C++ wxWidgets
- library. The port is accomplished by replacing a limited subset of wxWidgets
- with a Haskell implementation and used the Utrecht Haskell Compiler
+ library and only runs on a desktop PC. The web port is accomplished by replacing a limited subset of wxWidgets
+ with a Haskell implementation and uses the Utrecht Haskell Compiler
  (UHC)
- to compile the sources down to JavaScript. The key enabler has been a
- library for programming OOP in Haskell that allowed
- the existing OO interface to remain the same while changing the implementation.
+ to compile the sources down to JavaScript. The key enabler is a
+ library for OOP programming in Haskell which allowed
+ the existing OO interface to remain intact while swapping out the implementation.
 
 <br/><br/>
 <input type="button" style="width:200px;height:40px;" value="View Demo" onclick="javascript:window.location='http://uu-computerscience.github.com/js-asteroids/build/Asteroids.html';"/>
